@@ -25,6 +25,7 @@ public class SubmitOrderTest extends BaseTest {
 
 	@Test
 	public void SubmitOrder() throws IOException, InterruptedException {
+		//add my comments to demo jenkins
 		// TODO Auto-generated method stub
 		String productName = "ZARA COAT 3";
 		String country ="india";
