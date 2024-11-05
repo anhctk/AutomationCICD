@@ -32,7 +32,7 @@ public class buyVegetables2 {
 	public  void buyVegan () throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-		
+		//Run CICD
 		String product1 = "Brocolli";
 		String product2 = "Cucumber";
 		String code = "";
