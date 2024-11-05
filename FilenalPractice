@@ -1,0 +1,33 @@
+1. Build A framework
+	- Using TestNG
+	
+	- Using Maven
+	- Using POM
+	  - To reduce maintenance cost, increase reuse ability
+	  - Reable
+	  - clear structure
+	- Using external report
+2. Execute 2 test cases on : https://rahulshettyacademy.com/seleniumPractise/#/
+	- Add some items (vegetables) to cart and complete checkout
+		- Write low level code : OK
+
+	- Add some items to cart the remove one of them
+3. Upload on GIT
+4. Run CICD using Jenkins
+6. Using external report
+7. Run parallel using .xml files
+
+5.11.2024
+ - Build TestNG framework
+ 	- Before, after test : OK
+ 	- Config .xml file : OK
+ 	- Run 5 test in parallel in Chrome: OK
+ -Config extendreport
+ 	
+ - Maven:
+ 	- Run by command line
+ - Git
+ 	- Up code
+ 	- config running CICD
+ - Jekkins 
+ 	- Run CICD

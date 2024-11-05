@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-05T08:56:58 ICT" name="Buy Vegetables" finished-at="2024-11-05T08:57:37 ICT" duration-ms="39186">
+    <groups>
+    </groups>
+    <test started-at="2024-11-05T08:56:58 ICT" name="Test2" finished-at="2024-11-05T08:57:19 ICT" duration-ms="20922">
+      <class name="buyProducts.buyVegetables5">
+        <test-method is-config="true" signature="toGo()[pri:0, instance:buyProducts.buyVegetables5@65b3a85a]" started-at="2024-11-05T08:56:58 ICT" name="toGo" finished-at="2024-11-05T08:57:01 ICT" duration-ms="2605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toGo -->
+        <test-method signature="buyVegan()[pri:0, instance:buyProducts.buyVegetables5@65b3a85a]" started-at="2024-11-05T08:57:04 ICT" name="buyVegan" finished-at="2024-11-05T08:57:12 ICT" duration-ms="8351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyVegan -->
+        <test-method is-config="true" signature="closePage()[pri:0, instance:buyProducts.buyVegetables5@65b3a85a]" started-at="2024-11-05T08:57:19 ICT" name="closePage" finished-at="2024-11-05T08:57:19 ICT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+      </class> <!-- buyProducts.buyVegetables5 -->
+      <class name="buyProducts.buyVegetables6">
+        <test-method is-config="true" signature="toGo()[pri:0, instance:buyProducts.buyVegetables6@3a62c01e]" started-at="2024-11-05T08:57:01 ICT" name="toGo" finished-at="2024-11-05T08:57:03 ICT" duration-ms="2761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toGo -->
+        <test-method signature="buyVegan()[pri:0, instance:buyProducts.buyVegetables6@3a62c01e]" started-at="2024-11-05T08:57:12 ICT" name="buyVegan" finished-at="2024-11-05T08:57:19 ICT" duration-ms="6912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyVegan -->
+        <test-method is-config="true" signature="closePage()[pri:0, instance:buyProducts.buyVegetables6@3a62c01e]" started-at="2024-11-05T08:57:19 ICT" name="closePage" finished-at="2024-11-05T08:57:19 ICT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+      </class> <!-- buyProducts.buyVegetables6 -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-11-05T08:56:58 ICT" name="Test" finished-at="2024-11-05T08:57:37 ICT" duration-ms="39186">
+      <class name="buyProducts.buyVegetables2">
+        <test-method is-config="true" signature="toGo()[pri:0, instance:buyProducts.buyVegetables2@a22cb6a]" started-at="2024-11-05T08:56:58 ICT" name="toGo" finished-at="2024-11-05T08:57:00 ICT" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toGo -->
+        <test-method signature="buyVegan()[pri:0, instance:buyProducts.buyVegetables2@a22cb6a]" started-at="2024-11-05T08:57:20 ICT" name="buyVegan" finished-at="2024-11-05T08:57:26 ICT" duration-ms="6335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyVegan -->
+        <test-method is-config="true" signature="closePage()[pri:0, instance:buyProducts.buyVegetables2@a22cb6a]" started-at="2024-11-05T08:57:37 ICT" name="closePage" finished-at="2024-11-05T08:57:37 ICT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+      </class> <!-- buyProducts.buyVegetables2 -->
+      <class name="buyProducts.buyVegetables3">
+        <test-method is-config="true" signature="toGo()[pri:0, instance:buyProducts.buyVegetables3@362045c0]" started-at="2024-11-05T08:57:00 ICT" name="toGo" finished-at="2024-11-05T08:57:03 ICT" duration-ms="2897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toGo -->
+        <test-method signature="buyVegan()[pri:0, instance:buyProducts.buyVegetables3@362045c0]" started-at="2024-11-05T08:57:26 ICT" name="buyVegan" finished-at="2024-11-05T08:57:32 ICT" duration-ms="5367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyVegan -->
+        <test-method is-config="true" signature="closePage()[pri:0, instance:buyProducts.buyVegetables3@362045c0]" started-at="2024-11-05T08:57:37 ICT" name="closePage" finished-at="2024-11-05T08:57:37 ICT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+      </class> <!-- buyProducts.buyVegetables3 -->
+      <class name="buyProducts.buyVegetables4">
+        <test-method is-config="true" signature="toGo()[pri:0, instance:buyProducts.buyVegetables4@3bd418e4]" started-at="2024-11-05T08:57:03 ICT" name="toGo" finished-at="2024-11-05T08:57:20 ICT" duration-ms="17058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toGo -->
+        <test-method signature="buyVegan()[pri:0, instance:buyProducts.buyVegetables4@3bd418e4]" started-at="2024-11-05T08:57:32 ICT" name="buyVegan" finished-at="2024-11-05T08:57:37 ICT" duration-ms="5180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyVegan -->
+        <test-method is-config="true" signature="closePage()[pri:0, instance:buyProducts.buyVegetables4@3bd418e4]" started-at="2024-11-05T08:57:37 ICT" name="closePage" finished-at="2024-11-05T08:57:37 ICT" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+      </class> <!-- buyProducts.buyVegetables4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Buy Vegetables -->
+</testng-results>
