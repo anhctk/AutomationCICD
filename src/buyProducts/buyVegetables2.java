@@ -1,5 +1,6 @@
 package buyProducts;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -12,36 +13,31 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import TestComponents.BaseTest;
 import pageObjects.CartPage;
 import pageObjects.CountryPage;
 import pageObjects.ProductsPage;
 
 
 
-public class buyVegetables2 {
-	WebDriver driver = new ChromeDriver();
+public class buyVegetables2 extends BaseTest {
 	
-	@BeforeTest
-	public void toGo() {
-		
-		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
-		driver.manage().window().maximize();
-	}
 	
 	@Test
-	public  void buyVegan () throws InterruptedException {
+	public  void buyVegan () throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
 		
 		//Run CICD
+		//RUn CICD 2nd time
 		String product1 = "Brocolli";
 		String product2 = "Cucumber";
 		String code = "";
 		String country = "Japan";
-
+	
 
 		//Add one Brocolli and one Cucumber to Cart
 		ProductsPage product = new ProductsPage(driver);
-		
+	
 		product.selectProduct(product1);
 		product.selectProduct(product2);
 		product.proceedCheckout();
