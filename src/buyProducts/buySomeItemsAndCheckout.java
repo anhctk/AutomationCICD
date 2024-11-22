@@ -18,6 +18,7 @@ public class buySomeItemsAndCheckout extends BaseTest {
 	public void buySomeItems() throws InterruptedException 
 	
 	{
+		//RUn CICD
 		ProductsPage product = new ProductsPage(driver);
 		List<String> productName = Arrays.asList("Brocolli","Tomato","Brinjal","Capsicum","Walnuts");
 		productName.stream().forEach(s->{
