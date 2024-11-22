@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,17 +17,23 @@ public class CartPage {
 	}
 	
 
-	//WebElement promoCode = driver.findElement(By.cssSelector(".promoCode"));
+	
+
 	@FindBy(css=".promoCode")
 	WebElement promoCode;
 	
-	//WebElement applyBnt = driver.findElement(By.cssSelector("//button[text()='Apply']"));
+
+
 	@FindBy(css="//button[text()='Apply']")
 	WebElement applyBnt;
-	//WebElement placeOrderBnt = driver.findElement(By.xpath("//button[text()='Place Order']"));
-	
+
+
 	@FindBy(xpath="//button[text()='Place Order']")
 	WebElement placeOrderBnt ;
+	
+	@FindBy(css="tr td:nth-child(2)")
+	private static List<WebElement> productNames;
+	
 	public CountryPage placeOrder(String code) throws InterruptedException {
 		Boolean r = code.isBlank();
 		if (r=false) 
@@ -38,7 +46,13 @@ public class CartPage {
 	return new CountryPage(driver);
 		
 	}
-	
+	public static Boolean verifyProductAdded(String productname) {
+		
+		Boolean match =productNames.stream().anyMatch(product ->product.getText().equalsIgnoreCase(productname));
+		return match;
+			
+		}
+
 	
 	
 	

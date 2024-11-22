@@ -22,12 +22,29 @@
  	- Before, after test : OK
  	- Config .xml file : OK
  	- Run 5 test in parallel in Chrome: OK
- -Config extendreport
+ 	- Run on multiple browser on .XML file
+ 	
+ 	
+ -Config extendreport : 
  	
  - Maven:
- 	- Run by command line
+ 	- Run by command line : OK
  - Git
- 	- Up code
- 	- config running CICD
+ 	- Up code : OK
+ 	- config running CICD: OK
  - Jekkins 
- 	- Run CICD
+ 	- Run CICD :OK
+ 	
+ NOte: review video file 169 to verify how to capture multi items in the table
+ 
+ 7.11.2024
+ -design some test cases using complext flows
+ TC1: Buy some items in Cart and checkout
+  - Verify items are added to Cart
+  - Verify correct prices
+ TC2: Login to https://rahulshettyacademy.com/client
+ - buy some products
+ - Verify it is in Order page
+ Buy some items then removed
+ 	
+ 

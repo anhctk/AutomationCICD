@@ -26,9 +26,11 @@ public class buyVegetables2 extends BaseTest {
 	@Test
 	public  void buyVegan () throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
+	
 		
 		//Run CICD
 		//RUn CICD 2nd time
+		//RUn 
 		String product1 = "Brocolli";
 		String product2 = "Cucumber";
 		String code = "";

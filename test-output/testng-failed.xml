@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="buyVegetablesTestNG">
+      <class name="onlineShopping.RemoveChosenItemsFromOrderPage">
         <methods>
-          <include name="buyVegan"/>
-          <include name="toGo"/>
-          <include name="closePage"/>
+          <include name="RemoveChosenItems"/>
         </methods>
-      </class> <!-- buyVegetablesTestNG -->
+      </class> <!-- onlineShopping.RemoveChosenItemsFromOrderPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
